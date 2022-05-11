@@ -9,6 +9,21 @@
   overflow: hidden;
 }
 
+#html5qr-code-full-region__scan_region {
+  display: flex;
+  justify-content: center;
+}
+
+#html5qr-code-full-region__camera_permission_button {
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: 'poppins', sans-serif;
+}
+
+#html5qr-code-full-region {
+  border-radius: 10px;
+}
+
 .rating a,
 .rating label {
   color: #aaa;

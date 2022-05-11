@@ -10,6 +10,7 @@
     "axios": "^0.26.1",
     "dotenv": "^16.0.0",
     "emailjs": "^3.8.1",
+    "html5-qrcode": "^2.2.1",
     "leaflet": "^1.7.1",
     "lodash": "^4.17.21",
     "react": "^18.0.0",

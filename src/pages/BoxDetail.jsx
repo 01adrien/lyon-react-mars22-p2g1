@@ -155,6 +155,7 @@ export default function BoxDetail() {
     setAuthor('');
     setTitle('');
     setIsbn('');
+    console.log('end of fetching..');
   }
 
   return (
@@ -174,6 +175,7 @@ export default function BoxDetail() {
           condition={handleConditionChange}
           status={requestStatus}
           showForm={() => setAddBookForm(!addBookForm)}
+          flashIsbn={setIsbn}
         />
       ) : (
         ''
